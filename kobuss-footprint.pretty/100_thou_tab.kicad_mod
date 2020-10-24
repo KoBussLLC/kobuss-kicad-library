@@ -1,0 +1,18 @@
+(module 100_thou_tab (layer F.Cu) (tedit 5F337FCC)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 100_thou_tab (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.016 -1.27) (end 1.016 -1.27) (layer Eco1.User) (width 0.0254))
+  (fp_line (start -1.016 1.27) (end -1.016 -1.27) (layer Eco1.User) (width 0.0254))
+  (fp_line (start 1.016 1.27) (end 1.016 -1.27) (layer Eco1.User) (width 0.0254))
+  (fp_line (start -1.016 1.27) (end 1.016 1.27) (layer Eco1.User) (width 0.0254))
+  (pad "" np_thru_hole circle (at -0.762 -1.016) (size 0.508 0.508) (drill 0.508) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -0.762 0) (size 0.508 0.508) (drill 0.508) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -0.762 1.016) (size 0.508 0.508) (drill 0.508) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0.762 0) (size 0.508 0.508) (drill 0.508) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0.762 -1.016) (size 0.508 0.508) (drill 0.508) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0.762 1.016) (size 0.508 0.508) (drill 0.508) (layers *.Cu *.Mask))
+)
