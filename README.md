@@ -1,0 +1,1 @@
+# kobuss-kicad-library
