@@ -14,6 +14,16 @@ Add the library as a Global or Project Library
 6. Add the symbols library by selecting: Preferences > Manage Symbol Libraries... > Add existing library to table
 7. Enter `${KIUSRLIB}/kobuss-kicad-library/kobuss-symbols/kobuss.lib`
 
+## FreeCAD to KiCad Generation
+
+1. Make sure your Part Design has one Body named the same as the FCStd file
+2. Save the Part
+3. Switch to the KiCadStepUp Workspace
+4. Select the Body
+5. Export with "Export 3D Model to KiCad" and accept all defaults
+6. You should now have a .wrl and .step file that you can link in the KiCad Footprint Editor
+7. Make sure to close the FreeCAD file and close without saving as the version may be downgraded from the export
+
 ## License
 
 [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
